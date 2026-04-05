@@ -39,7 +39,7 @@ public class AddExpenseScreen extends DialogFragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.dialog_add_expense, container, false);
+        return inflater.inflate(R.layout.dialog_add_expense_screen, container, false);
     }
 
     @Override
