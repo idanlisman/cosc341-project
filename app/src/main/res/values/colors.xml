@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App theme colors -->
+    <color name="primary">#1A1A2E</color>
+    <color name="primary_light">#F0F0F5</color>
+    <color name="accent">#4A90D9</color>
+    <color name="background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Progress bar colors -->
+    <color name="progress_green">#4CAF50</color>
+    <color name="progress_blue">#42A5F5</color>
+    <color name="progress_orange">#FFA726</color>
+    <color name="progress_purple">#AB47BC</color>
+    <color name="progress_red">#EF5350</color>
+    <color name="progress_track">#E0E0E0</color>
+
+    <!-- Chart colors -->
+    <color name="income_green">#4CAF50</color>
+    <color name="expense_red">#F44336</color>
+
+    <!-- Tab colors -->
+    <color name="tab_selected">#1A1A2E</color>
+    <color name="tab_unselected">#FFFFFF</color>
+    <color name="tab_text_selected">#FFFFFF</color>
+    <color name="tab_text_unselected">#1A1A2E</color>
+
+    <!-- Notification colors -->
+    <color name="warning_orange">#FF9800</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="info_blue">#2196F3</color>
+
+    <!-- Growth positive -->
+    <color name="growth_green">#00C853</color>
+</resources>

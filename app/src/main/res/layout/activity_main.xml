@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Top bar: hamburger menu + title + profile icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BudTrack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Tab bar: Overview | Budget | Goals -->
+    <LinearLayout
+        android:id="@+id/tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="24dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tab_overview"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Overview"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:background="@drawable/bg_tab_selected"
+            android:textColor="@color/white"
+            android:layout_marginEnd="4dp" />
+
+        <TextView
+            android:id="@+id/tab_budget"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Budget"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:background="@drawable/bg_tab_unselected"
+            android:textColor="@color/text_primary"
+            android:layout_marginHorizontal="4dp" />
+
+        <TextView
+            android:id="@+id/tab_goals"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Goals"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:background="@drawable/bg_tab_unselected"
+            android:textColor="@color/text_primary"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+
+    <!-- Fragment container -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Bottom navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/text_primary"
+        app:itemTextColor="@color/text_primary"
+        app:labelVisibilityMode="unlabeled" />
+
+</LinearLayout>

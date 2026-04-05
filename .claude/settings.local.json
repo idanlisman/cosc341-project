@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv DataStore.java Storage.java)",
+      "Bash(mv AddExpenseDialogFragment.java AddExpenseScreen.java)",
+      "Bash(mv BudgetFragment.java BudgetScreen.java)",
+      "Bash(mv GoalsFragment.java GoalsScreen.java)",
+      "Bash(mv OverviewFragment.java OverviewScreen.java)"
+    ]
+  }
+}

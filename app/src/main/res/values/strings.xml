@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BudTrack</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_add">Add</string>
+
+    <!-- Tabs -->
+    <string name="tab_overview">Overview</string>
+    <string name="tab_budget">Budget</string>
+    <string name="tab_goals">Goals</string>
+
+    <!-- Overview -->
+    <string name="total_expense">TOTAL EXPENSE</string>
+    <string name="groceries">GROCERIES</string>
+    <string name="total_expenses_chart">Total Expenses</string>
+    <string name="november_2025">November 2025</string>
+    <string name="last_month">Last Month ↻</string>
+    <string name="mom_growth">+8% month over month</string>
+    <string name="mom_groceries">-3% month over month</string>
+
+    <!-- Budget -->
+    <string name="monthly_budget_remaining">MONTHLY BUDGET REMAINING</string>
+    <string name="categories">CATEGORIES</string>
+    <string name="view_all">View All →</string>
+    <string name="new_category">NEW CATEGORY</string>
+    <string name="edit_budgets">EDIT BUDGETS</string>
+
+    <!-- Goals -->
+    <string name="total_savings">TOTAL SAVINGS</string>
+    <string name="my_goals">MY GOALS</string>
+    <string name="add_new_goal">⊕ Add New Goal</string>
+    <string name="mom_growth_4">↗ 4%</string>
+
+    <!-- Add Expense -->
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="sharing">Sharing</string>
+    <string name="note_hint">Note:</string>
+    <string name="date">Date</string>
+
+</resources>
